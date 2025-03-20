@@ -88,35 +88,6 @@ python ping.py
 
 ---
 
-## **Example Commands**
-
-**Set motor to maximum power:**
-```bash
-python max.py
-```
-
-**Set motor to reduced power:**
-```bash
-python reduced.py
-```
-
-**Set motor speed to 50:**
-```bash
-python speed.py 50
-```
-
-**Stop motor:**
-```bash
-python stop.py
-```
-
-**Check FD unit connection:**
-```bash
-python ping.py
-```
-
----
-
 ## **Notes**
 - Ensure that the **`SERIAL_PORT`** in `common.py` is correctly set to match the connected USB port of the FD dispensing unit.
 - The scripts expect the FD dispensing unit to respond with data. Ensure the unit is properly connected and configured before executing commands.
