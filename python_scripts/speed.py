@@ -1,5 +1,5 @@
-
 # speed.py
+import sys
 from common import send_command
 
 def set_speed(value):

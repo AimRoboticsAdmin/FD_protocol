@@ -2,7 +2,7 @@ import serial
 import time
 
 #Serial port settings
-SERIAL_PORT = '/dev/ttyUSB0' #Change this to your Arduino's USB port (COM for windows)
+SERIAL_PORT = 'COM4' #Change this to your Arduino's USB port (COM for windows)
 BAUD_RATE = 115200
 
 def send_command(command):
